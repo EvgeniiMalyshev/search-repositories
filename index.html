@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search repository</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title_main">Блок с поиском репозиториев github</h1>
+
+        <form class="form" action="#">
+            <input id="search" type="text" name="search" placeholder="Введите интересующий вас репозиторий github">
+            <button class="form_btn" type="submit">Поиск</button>
+        </form>
+
+        <div class="info">
+            <div class="info_warning">P.S. поиск осуществляется по названию или по описанию репозитория</div>
+            <div class="info_error">поле ввода пустое </div>
+        </div>
+
+        <h2 class="title">Результат поиска:</h2>
+
+        <ul class="list">
+
+            <li class="nothing">пока ничего нет...</li>
+
+        </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

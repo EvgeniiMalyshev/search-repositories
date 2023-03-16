@@ -1,0 +1,94 @@
+*
+	font-family: 'Roboto', sans-serif
+	font-weight: 400
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+.container
+    width: 800px
+    margin: 0 auto
+
+.title_main
+    margin-top: 30px
+
+.form
+    width: 100%
+    display: flex
+    margin-top: 50px
+    input
+        width: auto
+        margin-right: 5px
+        flex-grow: 1
+        font-size: 20px
+        padding: 0 20px
+        height: 40px
+        border: none
+        border-bottom: 1px solid rgb(49, 159, 146)
+        &:focus
+            outline: none
+            // border-bottom: 2px solid rgb(49, 159, 146)
+    &_btn
+        height: 40px
+        width: 100px
+        font-size: 18px
+        background-color: rgb(49, 159, 146)
+        border: 1px solid rgb(49, 159, 146)
+        border-radius: 2px
+        transition: all 0.2s
+        &:hover
+            box-shadow: 0 0 5px
+.info
+    display: flex
+    justify-content: space-between
+    margin-top: 10px
+    margin-bottom: 30px
+    &_warning
+        color: #9b9a9a
+        font-size: 13px
+    &_error
+        transition: 0.5s all
+        // color: #f00606
+        color: #fff
+
+.list
+    margin: 10px 0px 30px 0px
+    li
+        list-style-type: none
+
+.item
+    padding: 10px
+    width: 70%
+    height: fit-content
+    background-color: rgba(49, 159, 146, 0.082)
+    border-radius: 5px
+    margin: 10px 0px
+    &_name
+        a
+            font-size: 17px
+            text-decoration: none
+            &:hover
+                text-decoration: underline
+    &_description
+        margin: 10px 0px 10px 0px
+        font-size: 14px
+    &_footer
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &_star
+        span
+            color: #6a6969
+            font-size: 13px
+    &_update
+        color: #6a6969
+        font-size: 13px
+
+.error
+    color: #f00606
+.nothing
+    color: #afafaf
+.count
+    margin-bottom: 20px
+.full_list
+    margin: 20px 0px
